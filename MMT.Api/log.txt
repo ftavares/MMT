@@ -1,0 +1,99 @@
+2021-03-03 17:54:04.883 +00:00 [INF] Api Starting Up.
+2021-03-03 17:54:11.919 +00:00 [INF] Api Starting Up.
+2021-03-03 17:54:19.313 +00:00 [FTL] Application start-up failed.
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MMT.Persistence.MMTContext Lifetime: Scoped ImplementationType: MMT.Persistence.MMTContext': Unable to resolve service for type 'System.String' while attempting to activate 'MMT.Persistence.MMTContext'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MMT.Persistence.MMTContext Lifetime: Scoped ImplementationType: MMT.Persistence.MMTContext': Unable to resolve service for type 'System.String' while attempting to activate 'MMT.Persistence.MMTContext'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MMT.Persistence.MMTContext'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at MMT.Api.Program.Main(String[] args) in C:\projects\MMT\MMT.Api\Program.cs:line 24
+2021-03-03 17:59:09.144 +00:00 [INF] Api Starting Up.
+2021-03-03 17:59:13.485 +00:00 [FTL] Application start-up failed.
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MMT.Persistence.MMTContext Lifetime: Scoped ImplementationType: MMT.Persistence.MMTContext': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContextOptions`1[MMT.Persistence.Entities.SSE_TestContext]' while attempting to activate 'MMT.Persistence.MMTContext'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MMT.Persistence.MMTContext Lifetime: Scoped ImplementationType: MMT.Persistence.MMTContext': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContextOptions`1[MMT.Persistence.Entities.SSE_TestContext]' while attempting to activate 'MMT.Persistence.MMTContext'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContextOptions`1[MMT.Persistence.Entities.SSE_TestContext]' while attempting to activate 'MMT.Persistence.MMTContext'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at MMT.Api.Program.Main(String[] args) in C:\projects\MMT\MMT.Api\Program.cs:line 24
+2021-03-03 18:00:31.870 +00:00 [INF] Api Starting Up.
+2021-03-03 18:05:21.775 +00:00 [INF] Api Starting Up.
+2021-03-03 18:11:29.642 +00:00 [INF] Api Starting Up.
+2021-03-03 18:14:26.922 +00:00 [INF] Api Starting Up.
+2021-03-03 18:19:44.034 +00:00 [INF] Api Starting Up.
+2021-03-03 18:23:36.555 +00:00 [INF] Api Starting Up.
+2021-03-03 18:36:59.060 +00:00 [INF] Api Starting Up.
+2021-03-03 19:18:15.873 +00:00 [INF] Api Starting Up.
+2021-03-03 19:19:08.056 +00:00 [INF] Api Starting Up.
+2021-03-03 19:19:54.066 +00:00 [INF] Api Starting Up.
+2021-03-03 19:20:59.135 +00:00 [INF] Api Starting Up.
+2021-03-03 19:35:56.200 +00:00 [INF] Api Starting Up.
+2021-03-03 19:36:55.466 +00:00 [INF] Api Starting Up.
+2021-03-03 19:42:50.029 +00:00 [INF] Api Starting Up.
+2021-03-03 19:50:51.305 +00:00 [INF] Api Starting Up.
+2021-03-03 19:51:44.137 +00:00 [INF] Api Starting Up.
+2021-03-03 19:53:45.534 +00:00 [INF] Api Starting Up.
+2021-03-03 20:26:02.563 +00:00 [INF] Api Starting Up.
+2021-03-03 20:28:48.579 +00:00 [INF] Api Starting Up.
+2021-03-03 20:30:50.174 +00:00 [INF] Api Starting Up.
+2021-03-03 20:33:32.410 +00:00 [INF] Api Starting Up.
+2021-03-03 20:35:01.164 +00:00 [INF] Api Starting Up.
+2021-03-03 20:36:08.420 +00:00 [INF] Api Starting Up.
+2021-03-03 20:37:41.415 +00:00 [INF] Api Starting Up.
+2021-03-03 20:40:50.252 +00:00 [INF] Api Starting Up.
+2021-03-03 20:42:55.975 +00:00 [INF] Api Starting Up.
+2021-03-03 20:46:18.383 +00:00 [INF] Api Starting Up.
+2021-03-03 20:46:45.026 +00:00 [INF] Api Starting Up.
+2021-03-03 20:48:33.421 +00:00 [INF] Api Starting Up.
+2021-03-03 20:55:30.690 +00:00 [INF] Api Starting Up.
+2021-03-03 20:57:39.938 +00:00 [INF] Api Starting Up.
+2021-03-03 21:08:10.304 +00:00 [INF] Api Starting Up.
+2021-03-03 21:22:25.506 +00:00 [INF] Api Starting Up.
+2021-03-03 21:26:46.761 +00:00 [INF] Api Starting Up.
+2021-03-03 21:37:56.054 +00:00 [INF] Api Starting Up.
+2021-03-03 21:41:17.762 +00:00 [INF] Api Starting Up.
+2021-03-03 21:41:53.645 +00:00 [INF] Api Starting Up.
+2021-03-04 00:05:27.084 +00:00 [INF] Api Starting Up.
+2021-03-04 00:18:51.019 +00:00 [INF] Api Starting Up.
+2021-03-04 08:43:46.351 +00:00 [INF] Api Starting Up.
+2021-03-04 08:54:54.873 +00:00 [INF] Api Starting Up.
+2021-03-04 08:58:34.387 +00:00 [INF] Api Starting Up.
+2021-03-04 08:59:57.549 +00:00 [INF] Api Starting Up.
+2021-03-04 09:05:40.815 +00:00 [INF] Api Starting Up.
+2021-03-04 09:18:34.034 +00:00 [INF] Api Starting Up.
+2021-03-04 09:18:58.454 +00:00 [INF] Api Starting Up.
+2021-03-04 09:19:44.392 +00:00 [INF] Api Starting Up.
+2021-03-04 09:35:40.928 +00:00 [INF] Api Starting Up.
+2021-03-04 09:36:28.845 +00:00 [INF] Api Starting Up.
+2021-03-04 09:45:45.626 +00:00 [INF] Api Starting Up.
+2021-03-04 09:48:23.446 +00:00 [INF] Api Starting Up.
+2021-03-04 09:52:57.622 +00:00 [INF] Api Starting Up.
+2021-03-04 10:03:49.145 +00:00 [INF] Api Starting Up.
+2021-03-04 11:05:32.739 +00:00 [INF] Api Starting Up.
+2021-03-04 11:11:02.972 +00:00 [INF] Api Starting Up.
+2021-03-04 13:21:37.171 +00:00 [INF] Api Starting Up.

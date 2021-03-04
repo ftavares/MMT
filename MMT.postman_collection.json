@@ -1,0 +1,261 @@
+{
+	"info": {
+		"_postman_id": "dd0c449d-bdfc-4b73-b040-64f0fe9fb927",
+		"name": "MMT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post dog.owner@fake-customer.com (ID= R34788)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customerId\":\"R34788\",\r\n    \"User\" : \"dog.owner@fake-customer.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44345/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44345",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post cat.owner@mmtdigital.co.uk (ID= C34454)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customerId\":\"C34454\",\r\n    \"User\" : \"cat.owner@mmtdigital.co.uk\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44345/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44345",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post sneeze@fake-customer.com (ID= A99001)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customerId\":\"A99001\",\r\n    \"User\" : \"sneeze@fake-customer.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44345/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44345",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post santa@north-pole.lp.com (ID= XM45001)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customerId\":\"XM45001\",\r\n    \"User\" : \"santa@north-pole.lp.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44345/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44345",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Customer Id   with no value",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customerId\":\"\",\r\n    \"User\" : \"santa@north-pole.lp.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44345/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44345",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post User with no value",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customerId\":\"XM45001\",\r\n    \"User\" : \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44345/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44345",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post invalid email",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customerId\":\"XM45001\",\r\n    \"User\" : \"fasdfas\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44345/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44345",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Customer not found",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customerId\":\"XM45001\",\r\n    \"User\" : \"teste@test.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44345/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44345",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Order not found",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customerId\":\"asdasd\",\r\n    \"User\" : \"santa@north-pole.lp.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44345/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44345",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

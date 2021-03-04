@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMT.Api", "MMT.Api\MMT.Api.csproj", "{249F5E83-F07E-4E40-A2D2-846F98852EA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMT.Application", "MMT.Application\MMT.Application.csproj", "{A17934E2-7B72-464F-8035-F15675D71273}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMT.Domain", "MMT.Domain\MMT.Domain.csproj", "{393F7089-B211-4470-AF05-E3CD256671F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMT.Persistence", "MMT.Persistence\MMT.Persistence.csproj", "{21F1D03C-E975-4CE9-A43F-111F4DC3C4C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{A0AD9223-DA97-461A-BBFD-24C283D07DA0}"
+	ProjectSection(SolutionItems) = preProject
+		MMT.postman_collection.json = MMT.postman_collection.json
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMT.Application.Tests", "MMT.Application.Tests\MMT.Application.Tests.csproj", "{61D89A06-87B8-4A9A-BD58-68F4717A0150}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{249F5E83-F07E-4E40-A2D2-846F98852EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249F5E83-F07E-4E40-A2D2-846F98852EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249F5E83-F07E-4E40-A2D2-846F98852EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249F5E83-F07E-4E40-A2D2-846F98852EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17934E2-7B72-464F-8035-F15675D71273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17934E2-7B72-464F-8035-F15675D71273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17934E2-7B72-464F-8035-F15675D71273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17934E2-7B72-464F-8035-F15675D71273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393F7089-B211-4470-AF05-E3CD256671F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393F7089-B211-4470-AF05-E3CD256671F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393F7089-B211-4470-AF05-E3CD256671F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393F7089-B211-4470-AF05-E3CD256671F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21F1D03C-E975-4CE9-A43F-111F4DC3C4C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F1D03C-E975-4CE9-A43F-111F4DC3C4C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F1D03C-E975-4CE9-A43F-111F4DC3C4C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F1D03C-E975-4CE9-A43F-111F4DC3C4C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D89A06-87B8-4A9A-BD58-68F4717A0150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D89A06-87B8-4A9A-BD58-68F4717A0150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D89A06-87B8-4A9A-BD58-68F4717A0150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D89A06-87B8-4A9A-BD58-68F4717A0150}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {059E2EFA-48A9-4446-9B72-ED1FFA98F30E}
+	EndGlobalSection
+EndGlobal
